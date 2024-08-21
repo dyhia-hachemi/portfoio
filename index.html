@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- The header section -->
     <div id="header">
         <div class="container">
             <nav>
@@ -24,12 +25,60 @@
                 <p>Web Developer</p>
                 <h1>Hi, I'm <span>Dyhia</span> <br> Hachemi from Algeria</h1>
             </div>
-
-
-            
         </div>
     </div>
-
-    
+    <!-- The About section -->  
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/backgroundImage.jpg" alt="user's image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Consequatur cupiditate voluptate iste vitae aliquam dolor 
+                        quidem laboriosam molestias repellendus maiores at nesciunt neque, 
+                        sint minima sequi perspiciatis asperiores officia in?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Cumque fugiat culpa et accusantium mollitia autem modi reprehenderit itaque laboriosam nulla.
+                        A quidem voluptas placeat saepe repudiandae tempore eum quis architecto.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Programming Languages</span> <br> HTML / CSS / JavaScript / Python / Java / C / SQL</li>
+                            <li><span>Full-Stack Web Development</span> <br> Developing Full Web Sites</li>
+                            <li><span>Project Management</span> <br> Agile/Scrum Methodologies </li>    
+                            <li><span>Problem-Solving & Algorithms</span> <br> Data Structures and Algorithm Design</li> 
+                            <li><span>Version Control</span> <br> Git/GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024</span> <br> Web Site Creation at Ecole Technique Laidi</li>
+                            <li><span>2024</span> <br> Python Project Implementation at BrainerX</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022 </span> <br>  Baccalaureate Exam with Very Good Mention</li>
+                            <li><span>2022 - 2024 </span> <br>Student at Mouloud Mammeri University of Tizi-Ouzou</li>
+                            <li><span>2024 </span> <br> Web Development Training at Ecole Technique Laidi</li>
+                            <li><span>2024 </span> <br> Python Programming Training at Ecole BrainerX</li>
+                        </ul>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
