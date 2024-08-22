@@ -408,11 +408,11 @@ nav .fas {
         margin-bottom: 30px;
     }
     .about-col-2 {
-        font-size: 12px;
+        font-size: 15px;
     } 
     .tab-links {
-        font-size: 15px;
-        margin-left: 20px;
+        font-size: 15x;
+        margin-left: 15px;
     }
     .contact-left , .contact-right {
         flex-basis: 100%;
