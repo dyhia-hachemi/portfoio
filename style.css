@@ -4,7 +4,9 @@
     font-family: 'Poppins' , sans-serif;
     box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: #080808;
     color: white;
@@ -390,7 +392,7 @@ nav .fas {
         display: block;
         margin: 25px;
     }
-    .sub-title{
+    .subtitle{
         font-size: 40px;
     }
     .about-col-1 , .about-col-2 {
